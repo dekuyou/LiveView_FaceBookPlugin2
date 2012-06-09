@@ -1,0 +1,22 @@
+<PreferenceScreen	xmlns:android="http://schemas.android.com/apk/res/android" android:order="10" android:title="LiveFBview">
+	
+	<!--
+		Add your additional preferences here.
+	-->
+
+
+
+
+<CheckBoxPreference android:order="10" android:defaultValue="true" android:enabled="false" android:title="NEWS FEED" android:key="NEWSFEEDEnabled" android:selectable="true"></CheckBoxPreference>
+
+<CheckBoxPreference android:order="20" android:title="Wall" android:key="WALLEnabled" android:defaultValue="false" android:enabled="true" android:selectable="true"></CheckBoxPreference>
+
+<CheckBoxPreference android:key="MAILLEnabled" android:title="Inbox" android:order="30" android:defaultValue="false" android:selectable="false" android:enabled="false"></CheckBoxPreference><CheckBoxPreference android:defaultValue="true" android:title="Reload at the start" android:key="ReloadAtTheStart" android:order="100" android:enabled="false"></CheckBoxPreference>
+
+
+<ListPreference android:title="Font Size" android:entryValues="@array/fontSizevalues" android:entries="@array/fontSize" android:key="FontSize" android:order="200" android:selectable="true" android:defaultValue="20"></ListPreference>
+
+
+
+
+</PreferenceScreen>
